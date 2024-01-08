@@ -1,0 +1,222 @@
+
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: #000c0a;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+}
+button {
+    border: 8px solid #1EF4C0;
+    border-radius: 40px;
+    padding: 10px 50px;
+    background: #ff10;
+    color: #1EF5C0;
+    font-size: 18px;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 22px #1EF5C0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Manrope', sans-serif;
+}
+h1 {
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 68px;
+}
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+}
+h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* NAVIGATIONS */
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 13px;
+    line-height: 23px;
+}
+.header .navbar a {
+    color: #fff !important;
+    font-family: 'Manrope', sans-serif;
+}
+.navbar-nav.navbar-nav-scroll {
+    justify-content: end;
+    gap: 30px;
+    width: 100%;
+}
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+}
+nav.navbar.navbar-expand-lg.navbar-light a.dropdown-item {
+    color: #000 !important;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+/* BANNERS */
+section#banner h1.animated-text span {
+    display: table;
+}
+section#banner .first-row {
+	position: relative;
+}
+
+section#banner h1.animated-text span {
+	color: #fff;
+	font-size: 126px;
+	position: absolute;
+	
+}
+section#banner video {
+    position: fixed;
+    height: 100% !important;
+    top: 0;
+    z-index: -1;
+    bottom: 0;
+    transform: rotate(-180deg);
+}
+section#banner h1.animated-text span:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 2px #fff;
+}
+
+section#banner h1.animated-text span:nth-child(2) {
+	color: #1EF5C0;
+	animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+
+
+section#banner {
+    padding: 200px 0 0px 0;
+}
+section#banner h1 {
+    font-size: 128px;
+    line-height: 138px;
+    font-family: 'Manrope';
+    color: #E1E1E1;
+}
+
+  section#banner button {
+    animation: pulse 2s infinite;
+}
+section#banner h1.animated-text button {
+    padding: 0px 40px;
+    line-height: 70px;
+    position: relative;
+    top: -39px;
+    animation: pulse 2s infinite;
+    border-radius: 50px !important;
+}
+section#banner:after {
+    content: '';
+    background: #00000040;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 #1EF5C0;
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px #1EF5C0;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 #1EF5C0;
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 #1EF5C0;
+      box-shadow: 0 0 0 0 #1EF5C0;
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+  
+  section#banner .second-row h2 {
+    font-size: 58px;
+    line-height: 68px;
+    color: #E1E1E1;
+}
+section#banner .second-row {
+    padding: 200px 0px 100px 0px;
+}
+
+/* Our Projects  */
+section#projects img:hover {
+    opacity: 0.3;
+}
+
+section#projects img {
+    margin: 30px;
+    transition: .9s;
+    filter: brightness(0)invert(1);
+}
+section#projects h1 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+section#projects {
+    text-align: center;
+    padding: 50px 0;
+}
+
+section#projects h1 span {
+    color: #ff10;
+    -webkit-text-stroke: 2px white;
+    text-stroke: 2px white !important;
+    background: #ff10;
+}
