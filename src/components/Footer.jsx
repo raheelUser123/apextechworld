@@ -16,15 +16,15 @@ const Footer = () => {
     <section id='footer' style={Bannerbgs1}>
         <div className='container'>
         <div className='row call-to-action align-items-center'>
-            <div className='col-7'>
+            <div className='col-7 col'>
                 <h1>Let’s Start <br /> Something New</h1>
             </div>
-            <div className='col-5'>
+            <div className='col-5 col'>
                 <Link to="mailto:info@apexbookpublishing.com"><button>Reach out</button></Link>
             </div>
         </div>
         <div className='row footer-linkss'>
-            <div className='col-3'>
+            <div className='col-3 col'>
                 <div className='about'>
                 <Link to="/"><img src={Footerlogo} /></Link>
 
@@ -41,18 +41,18 @@ const Footer = () => {
                         </div>
                 </div>
             </div>
-            <div className='col-3'>
+            <div className='col-3 col'>
                 <div className='footer-nav-links'>
                     <h4>Quick Links</h4>
                     <ul>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="#">About Us</Link></li>
-                        <li><Link to="#">Services</Link></li>
-                        <li><Link to="#">Portfolio </Link></li>
+                        <li><Link to="/aboutus">About Us</Link></li>
+                        <li><Link to="/services">Services</Link></li>
+                        <li><Link to="/contactus">Contact Us </Link></li>
                     </ul>
                 </div>
             </div>
-            <div className='col-3'>
+            <div className='col-3 col'>
             <div className='footer-nav-links'>
                     <h4>Useful Links</h4>
                     <ul>
@@ -63,12 +63,12 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className='col-3'>
+            <div className='col-3 col'>
             <div className='footer-nav-links'>
                     <h4>Contact Us</h4>
                     <ul>
                         <li><em>Phone :</em><span>(737) 377-5786</span></li>
-                        <li><em>Email:</em><span>info@apexbookpublishing.com</span></li>
+                        <li><em>Email:</em><span>info@apextechworld.com</span></li>
                         <li><em>Address:</em><span>14423 Falcon Head Blvd Austin, TX, US 78738 3867 Bay Street,</span></li>
                     </ul>
                 </div>

@@ -10,7 +10,7 @@ const FeaturedWork = () => {
       <div className='container'>
         <div className='row'>
           <h1>FEATURED <span>WORK</span></h1>
-          <div className='col-6'>
+          <div className='col-6 col'>
             <div className='image-hover'>
             <div className='mg'>
             <img src={Img1} />
@@ -30,7 +30,7 @@ const FeaturedWork = () => {
             </div>
             </div>
           </div>
-          <div className='col-6'>
+          <div className='col-6 col'>
           <div className='image-hover'>
           <div className='mg'>
             <img src={Img3} />
@@ -54,7 +54,7 @@ const FeaturedWork = () => {
         <div className='row'
         style={{padding: "30px 0px", textAlign: "center"}}
         >
-        <Link><button>Discover More</button></Link>
+        <Link to="/services"><button>Discover More</button></Link>
         </div>
       </div>
     </section>

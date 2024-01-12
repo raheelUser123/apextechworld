@@ -16,7 +16,7 @@ const Products = () => {
                 <Link className='view' to="/services">View More</Link>
             </div>
             <div className='row'>
-                <div className='col-6'>
+                <div className='col-6 col'>
                     <div className='products seo'>
                         <img src={Seo} />
                         <h2>Search Engine Optimization</h2>
@@ -25,7 +25,7 @@ const Products = () => {
                              the 1500s, when an unknown printer </p>
                     </div>
                 </div>
-                <div className='col-6'>
+                <div className='col-6 col'>
                     <div className='products logo'>
                         <img src={Logo} />
                         <h2>Logo Design</h2>
@@ -36,7 +36,7 @@ const Products = () => {
                 </div>
             </div>
             <div className='row' style={{padding:"20px 0px"}}>
-                <div className='col-6'>
+                <div className='col-6 col'>
                     <div className='products uiux'>
                         <img src={UiUx} />
                         <h2>UI/UX Design</h2>
@@ -45,7 +45,7 @@ const Products = () => {
                              the 1500s, when an unknown printer </p>
                     </div>
                 </div>
-                <div className='col-6'>
+                <div className='col-6 col'>
                     <div className='products web'>
                         <img src={Web} />
                         <h2>Web Development</h2>

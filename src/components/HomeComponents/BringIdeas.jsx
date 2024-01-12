@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom';
 const DiscoverContent = () => {
   return <div><section id='discover'>
     <div className='row align-items-center'>
-        <div className='col-6'>
+        <div className='col-6 col'>
             <img src={Img4} />
         </div>
-        <div className='col-6'>
+        <div className='col-6 col'>
             <h1>DISCO<span>VER</span></h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 
@@ -30,10 +30,10 @@ const DiscoverContent = () => {
 const ConceptualizationContent = () => {
   return <div><section id='discover'>
   <div className='row align-items-center'>
-      <div className='col-6'>
+      <div className='col-6 col'>
           <img src={Img2} />
       </div>
-      <div className='col-6'>
+      <div className='col-6 col'>
           <h1>Conceptualiza<span>tion</span></h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               Lorem Ipsum has been the industry's standard dummy text ever since the 
@@ -52,10 +52,10 @@ const ConceptualizationContent = () => {
 const ProductionContent = () => {
   return <div><section id='discover'>
   <div className='row align-items-center'>
-      <div className='col-6'>
+      <div className='col-6 col'>
           <img src={Img3} />
       </div>
-      <div className='col-6'>
+      <div className='col-6 col'>
           <h1>PRODUC<span>TION</span></h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               Lorem Ipsum has been the industry's standard dummy text ever since the 
@@ -74,10 +74,10 @@ const ProductionContent = () => {
 const DeliveryContent = () => {
   return <div><section id='discover'>
   <div className='row align-items-center'>
-      <div className='col-6'>
+      <div className='col-6 col'>
           <img src={Img1} />
       </div>
-      <div className='col-6'>
+      <div className='col-6 col'>
           <h1>DELIV<span>ERY</span></h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               Lorem Ipsum has been the industry's standard dummy text ever since the 
@@ -96,10 +96,10 @@ const DeliveryContent = () => {
 const FeedbackContent = () => {
   return <div><section id='discover'>
   <div className='row align-items-center'>
-      <div className='col-6'>
+      <div className='col-6 col'>
           <img src={Img5} />
       </div>
-      <div className='col-6'>
+      <div className='col-6 col'>
           <h1>FEED<span>BACK</span></h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               Lorem Ipsum has been the industry's standard dummy text ever since the 
@@ -158,13 +158,13 @@ const BringIdeas = () => {
     <section id='bringideas'>
       <div className='container'>
         <div className='row align-items-center'>
-          <div className='col-5'>
+          <div className='col-5 col'>
             <div className='headings'>
               <p>How We Bring</p>
               <h1>Ideas to <span>Life</span></h1>
             </div>
           </div>
-          <div className='col-7'>
+          <div className='col-7 col'>
             <div className='tabs'>
               
               <ul>

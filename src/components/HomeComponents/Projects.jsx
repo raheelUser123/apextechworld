@@ -15,36 +15,36 @@ const Projects = () => {
                 <h1>Our <span>Successfull</span> Projects</h1>
             </div>
             <div className='row align-items-center'>
-                <div className='col-2'>
+                <div className='col-2 col'>
                     <img src={Image1} />
                 </div>
-                <div className='col-2'>
+                <div className='col-2 col'>
                     <img src={Image2} />
                 </div>
-                <div className='col-2'>
+                <div className='col-2 col'>
                     <img src={Image3} />
                 </div>
-                <div className='col-2'>
+                <div className='col-2 col'>
                     <img src={Image4} />
                 </div>
-                <div className='col-2'>
+                <div className='col-2 col'>
                     <img src={Image5} />
                 </div>
-                <div className='col-2'>
+                <div className='col-2 col'>
                     <img src={Image6} />
                 </div>
             </div>
             <div className='row'>
-                <div className='col-3'>
+                <div className='col-3 col'>
                     <img src={Image1} />
                 </div>
-                <div className='col-3'>
+                <div className='col-3 col'>
                     <img src={Image2} />
                 </div>
-                <div className='col-3'>
+                <div className='col-3 col'>
                     <img src={Image3} />
                 </div>
-                <div className='col-3'>
+                <div className='col-3 col'>
                     <img src={Image4} />
                 </div>
                 

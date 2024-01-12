@@ -39,15 +39,15 @@ const Banner = () => {
           </h1>
         </div>
         <div className='row second-row'>
-          <div className='col-6'>
+          <div className='col-6 col'>
             <h2>Making the <br />future happen<br /> faster</h2>
           </div>
-          <div className='col-6 text-right'>
+          <div className='col-6 col text-right'>
             <p>
             Lorem Ipsum has been the industry's standard <br />dummy text ever since the 1500s, when an <br />unknown printer took
              a galley of type <br />and scrambled 
             </p>
-            <Link><button>Learn More</button></Link>
+            <Link to="/aboutus"><button>Learn More</button></Link>
           </div>
         </div>
       </div>

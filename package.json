@@ -1,5 +1,6 @@
 {
-  "name": "zecodo",
+  "name": "apextechworld",
+  "homepage": "https://apex.apextechworld.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

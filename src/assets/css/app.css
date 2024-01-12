@@ -649,7 +649,317 @@ section#bringideas .col-5 .headings h1 span {
 
 @media (max-width: 768px) {}
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+  section#logo-contact-form .contact-inner form textarea {
+    height: 70px;
+    resize: unset;
+}
+  section#logo-contact-form .contact-inner form input, section#logo-contact-form .contact-inner form textarea {
+    padding: 6px 20px;
+}
+  section#logo-contact-form .about-banner-buttons ul li {
+    list-style: none;
+}
+  .about-banner-buttons.animate__animated.animate__bounce {
+    padding: 0px 0px 20px 0px !important;
+}
+  section#logo-contact-form .contact-inner .col-6 {
+    padding: 0px !important;
+}
+section#logo-contact-form .row {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 0 20px;
+}
+  section#logo-contact-form .col {
+    width: 100%;
+}
+  section#aboutus {
+    text-align: center;
+}
+  .calltoactions {
+    justify-content: center;
+}
+  section#discover .row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+}
+  .footer-nav-links ul li span {
+    text-align: left;
+}
+  .about .social ul {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  section#footer button {
+    float: unset;
+}
+section#footer .col h1 {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+section#footer .col {
+    width: 100%;
+    text-align: center;
+}
+  section#aboutus p {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+section#aboutus h3 {
+    font-size: 16px;
+    line-height: 25px;
+}
+section#aboutus h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+  section#aboutus .col img {
+    width: 100%;
+}
+
+section#aboutus .col {
+    width: 100%;
+}
+  section#about-banner .about-text {
+    padding: 20px 20px;
+  }
+  .about-text p br {
+    display: none;
+}
+
+.about-text p {
+    font-size: 12px;
+    line-height: 22px;
+}
+  section#about-banner h1 br {
+    display: none;
+}
+
+section#about-banner h1 {
+    font-size: 25px;
+    line-height: 35px;
+}
+section#about-banner {
+  padding: 100px 0 0px 0px !important;
+}
+  .navbar-nav.navbar-nav-scroll {
+    height: auto !important;
+    max-height: unset !important;
+}
+  div#navbarScroll {
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: #000000d1;
+    top: 0;
+    bottom: 0;
+    z-index: 111111;
+}
+  .header nav.navbar.navbar-expand-lg.navbar-light {
+    float: right;
+}
+  .navbar-light .navbar-toggler-icon {
+    filter: brightness(0)invert(1);
+}
+  section#bringideas .tabs-componentbutton {
+    margin-top: 30px;
+}
+  section#discover p {
+    font-size: 12px;
+    line-height: 22px;
+}
+section#discover h1 {
+    font-size: 25px;
+    line-height: 25px;
+}
+  section#bringideas .tabs ul li {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+section#bringideas .tabs ul {
+    display: block;
+    column-count: 3;
+}
+  section#bringideas .tab-content {
+    width: 100%;
+}
+  section#discover img {
+    width: 100%;
+}
+  section#bringideas .col-5 .headings h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+  section#bringideas .col {
+    width: 100%;
+}
+  section#products-ideas .products p {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+section#products-ideas .products h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+  section#products-ideas .products {
+    padding: 20px;
+}
+  section#products-ideas .products img {
+    margin-bottom: 30px;
+    width: 20%;
+}
+section#products-ideas .row {
+  margin: 0;
+  padding: 0 !important;
+}
+
+section#products-ideas .row .col {
+  width: 100%;
+  margin-bottom: 20px;
+}
+  section#products-ideas .row a.view {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+  section#products-ideas h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+section#products-ideas h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+  section#ourteams .row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+}
+  section#ourteams button.next {
+    right: 10%;
+}
+
+section#ourteams button.previous {
+    left: 10px;
+}
+  section#ourteams .flickity-slider {
+    left: 0 !important;
+}
+  section#ourteams .heading-text h5 {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+section#ourteams .heading-text p {
+    font-size: 20px;
+    line-height: 30px;
+}
+section#ourteams .heading-text h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+section#ourteams .heading-text {
+    position: unset;
+    width: 100%;
+}
+  section#featurework .image-hover:hover .content {
+    top: 60px;
+}
+  section#featurework .image-hover:hover .content p {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+section#featurework .image-hover:hover .content h2 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+  section#featurework .image-hover .content {
+    right: unset !important;
+    padding: 20px 20px;
+    left: 0 !important;
+}
+  section#featurework .col {
+    width: 100%;
+}
+  section#featurework h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+  section#projects img {
+    margin: 20px 0;
+}
+  section#projects .row .col img {
+    width: 100%;
+}
+section#projects .row .col {
+    width: 50%;
+}
+  section#projects h1 {
+    font-size: 35px;
+    line-height: 45px;
+}
+  section#banner h1.animated-text span {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+  
+section#banner .second-row button, section#featurework button, section#footer button, section#aboutus button {
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    padding: 8px 38px;
+    border: 2px solid;
+    font-size: 13px;
+}
+  section#banner .second-row p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+}
+  section#banner .second-row h2 {
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+}
+  section#banner .second-row .col {
+    width: 100%;
+}
+  section#banner .second-row {
+    padding: 20px 0px 50px 0px;
+}
+section#banner h1 {
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+}
+  section#banner h1.animated-text span {
+    font-size: 46px;
+    line-height: 56px;
+}
+  section#banner h1.animated-text button {
+    padding: 0px 10px;
+    line-height: 30px;
+    top: -9px;
+    font-size: 11px;
+}
+  section#banner {
+    padding: 120px 0 0px 0;
+}
+  body {
+    overflow-x: hidden;
+}
+}
 
 @media (max-width: 414px) {}
 
@@ -780,4 +1090,10 @@ section#logo-contact-form .contact-inner form {
   padding: 20px 20px;
   background: #102925;
   border-radius: 30px;
+}
+section#banner .second-row a {
+  text-decoration: unset;
+}
+section#featurework a, section#footer a, section#aboutus a {
+  text-decoration: unset;
 }

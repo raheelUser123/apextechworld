@@ -14,7 +14,7 @@ const OurTeam = () => {
                     <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown printer took </h5>
-                        <h6><a href="mailto:SarahAngel@mail.com">SarahAngel@mail.com</a></h6>
+                        <h6><a href="mailto:info@apextechworld.com">info@apextechworld.com</a></h6>
                 </div>
             </div>
         </div>
