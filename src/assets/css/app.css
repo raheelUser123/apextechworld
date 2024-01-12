@@ -641,7 +641,12 @@ section#bringideas .col-5 .headings h1 span {
 
 @media (max-width: 1366px) {}
 
-@media (max-width: 1280px) {}
+@media (max-width: 1280px) {
+  section#jobpositions .row .col h2 {
+    font-size: 23px;
+    line-height: 33px;
+}
+}
 
 @media (max-width: 1024px) {}
 
@@ -650,6 +655,14 @@ section#bringideas .col-5 .headings h1 span {
 @media (max-width: 768px) {}
 
 @media (max-width: 480px) {
+  .details-popup .details-content {
+    width: 98% !important;
+    top: 1% !important;
+    padding: 12px 10px !important;
+}
+  section#jobpositions .row .col {
+    width: 100%;
+}
   section#logo-contact-form .contact-inner form textarea {
     height: 70px;
     resize: unset;
@@ -1096,4 +1109,111 @@ section#banner .second-row a {
 }
 section#featurework a, section#footer a, section#aboutus a {
   text-decoration: unset;
+}
+
+section#banner .second-row h2 span, #jobpositions h1 span {
+  font-weight: 100;
+  color: #1ef4c0;
+}
+
+section#banner .second-row h2 {
+  text-transform: uppercase;
+}
+section#jobpositions .posting button {
+  padding: 7px 21px;
+  font-size: 12px;
+  border: 2px solid;
+}
+section#jobpositions .posting {
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 11px 11px 11px #1ef4c073;
+  animation: pulse 2s infinite;
+}
+
+/* Popup */
+.details-popup .details-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: table;
+  background: #0d231f;
+  width: 70%;
+  top: 3%;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+}
+.jobdetails h6 span {
+  color: #fff;
+  width: 70%;
+  float: right;
+}
+
+.jobdetails h6 {
+  color: #62ffb6;
+  padding-bottom: 6px;
+  font-size: 12px;
+}
+.details-popup {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 99999;
+  top: 0;
+  background: #000000d1;
+}
+.details-popup .details-content h5 b {
+  font-weight: bold;
+}
+
+.details-popup .details-content h5 {
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.details-popup .details-content ul li {
+  font-size: 13px;
+  line-height: 23px;
+}
+.details-popup .details-content p {
+  font-size: 13px;
+  line-height: 23px;
+}
+.details-popup .details-content h3 {
+  font-size: 17px;
+  line-height: 27px;
+}
+.details-popup .details-content h2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.applynow button {
+  padding: 8px 41px;
+  border: 2px solid #fff;
+  color: #000;
+  background: #fff;
+  font-size: 14px;
+}
+.details-popup .details-content button.close img {
+  width: 40px;
+  opacity: 1;
+  filter: brightness(0)invert(1);
+}
+.details-content ul {
+  padding-left: 18px;
+}
+.details-popup .details-content button.close {
+  box-shadow: unset !important;
+  padding: 0 0;
+  opacity: 1;
+  position: absolute;
+  right: -4px;
+  top: -2px;
+}
+.details-popup {
+  overflow-y: scroll;
 }

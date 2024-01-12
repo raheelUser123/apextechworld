@@ -11,6 +11,7 @@ const CustomNavbar = () => {
           <Link class="nav-link " to="/" active>Home</Link>
           <Link class="nav-link " to="/aboutus">About Us</Link>
           <Link class="nav-link " to="/services">Services</Link>
+          <Link class="nav-link " to="/careers">Careers</Link>
           {/* <NavDropdown title="Services" id="navbarScrollingDropdown">
             <NavDropdown.Item href="#">Marketing Services</NavDropdown.Item>
             <NavDropdown.Item href="#">Web Services</NavDropdown.Item>
