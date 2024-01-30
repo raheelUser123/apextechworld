@@ -13,11 +13,7 @@ const DiscoverContent = () => {
         </div>
         <div className='col-6 col'>
             <h1>DISCO<span>VER</span></h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 
-                1500s, when an unknown printer tandard dummy text ever since the 
-                1500s, when an unknown printer tandard dummy text ever since the 
-                1500s, when an unknown printer </p>
+            <p>The first step of our creative journey begins with understanding the true essence of your vision. We delve deep into your goals, aspirations, and market dynamics, ensuring a comprehensive understanding that becomes the foundation for your project.</p>
                 <div className='calltoactions'>
                 <Link to="/contactus">Contact Us</Link>
                 <Link to="mailto:info@apextechworld.com">Email Us</Link>
@@ -35,11 +31,7 @@ const ConceptualizationContent = () => {
       </div>
       <div className='col-6 col'>
           <h1>Conceptualiza<span>tion</span></h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 
-              1500s, when an unknown printer tandard dummy text ever since the 
-              1500s, when an unknown printer tandard dummy text ever since the 
-              1500s, when an unknown printer </p>
+          <p>After understanding the thought behind your idea, we enter the realm of creative briefing, which we call a conceptualization stage. We transform all ideas into tangible plans and strategies. Our collaborative brainstorming and design sessions shape the blueprints of the project.</p>
               <div className='calltoactions'>
               <Link to="/contactus">Contact Us</Link>
               <Link to="mailto:info@apextechworld.com">Email Us</Link>
@@ -57,11 +49,7 @@ const ProductionContent = () => {
       </div>
       <div className='col-6 col'>
           <h1>PRODUC<span>TION</span></h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 
-              1500s, when an unknown printer tandard dummy text ever since the 
-              1500s, when an unknown printer tandard dummy text ever since the 
-              1500s, when an unknown printer </p>
+          <p>Once we give your idea a tangible form, our expert team, equipped with cutting-edge technologies and software, will start creating a masterpiece that is a testament to precision and innovation. From coding intricacies to design finesse, we ensure every detail is polished. </p>
               <div className='calltoactions'>
               <Link to="/contactus">Contact Us</Link>
               <Link to="mailto:info@apextechworld.com">Email Us</Link>
@@ -79,11 +67,7 @@ const DeliveryContent = () => {
       </div>
       <div className='col-6 col'>
           <h1>DELIV<span>ERY</span></h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 
-              1500s, when an unknown printer tandard dummy text ever since the 
-              1500s, when an unknown printer tandard dummy text ever since the 
-              1500s, when an unknown printer </p>
+          <p>Now that the project is ready, it undergoes meticulous testing and refinement, ensuring a flawless presentation. With a seamless handover, your idea transforms into reality, ready to make its mark in the digital landscape.</p>
               <div className='calltoactions'>
               <Link to="/contactus">Contact Us</Link>
               <Link to="mailto:info@apextechworld.com">Email Us</Link>
@@ -101,11 +85,7 @@ const FeedbackContent = () => {
       </div>
       <div className='col-6 col'>
           <h1>FEED<span>BACK</span></h1>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 
-              1500s, when an unknown printer tandard dummy text ever since the 
-              1500s, when an unknown printer tandard dummy text ever since the 
-              1500s, when an unknown printer </p>
+          <p>After the successful testing and delivery of the project, our client’s feedback helps us gauge their satisfaction level. This interactive process not only fine-tunes the finishing touches but ensures that the final product not only meets but surpasses their expectations.</p>
               <div className='calltoactions'>
               <Link to="/contactus">Contact Us</Link>
               <Link to="mailto:info@apextechworld.com">Email Us</Link>

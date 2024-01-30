@@ -88,7 +88,7 @@ const JobPositions = () => {
       },
       {
         title: "Video/Animation",
-        description: "Firm grasp of graphic design, social media content, and video editing. Our ideal candidate will have a unique blend of graphic design, storytelling, animation, video, and video editing skills.",
+        description: "Firm grasp of graphic design, and video editing. Our ideal candidate will have a unique blend of graphic design, storytelling, animation, video, and video editing skills.",
         jobtype: "Full-time (on-site)",
         jobtimings: "Night Shift (10:00 PM to 07:00 AM)",
         workingdays: "Monday to Friday",
@@ -98,6 +98,52 @@ const JobPositions = () => {
           "Create supporting assets, including graphics, flyers, postcards, banners, and brochures for social media and website, etc.",
           "Effectively take inspiration and feedback to execute and deliver design ideas.",
           "Edit and Export videos in post-production using Adobe Premiere Pro and Adobe After Effects. (graphics, music, selection, narration, etc )",
+        ],
+        ourbenefits: [
+          "Maintained Vehicle",
+          "Medical Inssurance",
+          "Utilities Allowances",
+          "Pick n Drop",
+          "Dinner / Lunch",
+        ]
+      },
+      {
+        title: "Senior Content Writer",
+        description: "We are hiring an experienced Content Writer to help us keep growing. If you're dedicated and ambitious, Apex Tech World is an excellent place to grow your career. Don't hesitate to apply.",
+        jobtype: "Full-time (on-site)",
+        jobtimings: "Night Shift (10:00 PM to 07:00 AM)",
+        workingdays: "Monday to Friday",
+        location: "Bukhari Commercial Dha Lahore Sub Office Phase 6",
+        jobresponsibilities: [
+          "Produce well-researched content for publication online and in print.",
+          "Organize writing schedules to complete drafts of content or finished projects within deadlines.",
+          "Communicate and cooperate with a writing team, including a content manager, editors, and web publishers.",
+          "Develop related content for multiple platforms, such as websites, email marketing, product descriptions, videos, and blogs.",
+          "Monitor and analyze the performance of key performance indicators (KPIs) to offer suggestions for improvement.",
+          "Use search engine optimization (SEO) strategies in writing to maximize the online visibility of a website in search results.",
+        ],
+        ourbenefits: [
+          "Maintained Vehicle",
+          "Medical Inssurance",
+          "Utilities Allowances",
+          "Pick n Drop",
+          "Dinner / Lunch",
+        ]
+      },
+      {
+        title: "Project Manager",
+        description: "We are seeking an experienced Project Manager. The ideal candidate will be responsible for overseeing project management using the Scrum framework.",
+        jobtype: "Full-time (on-site)",
+        jobtimings: "Night Shift (10:00 PM to 07:00 AM)",
+        workingdays: "Monday to Friday",
+        location: "Bukhari Commercial Dha Lahore Sub Office Phase 6",
+        jobresponsibilities: [
+          "Scrum methodology Implementation: Implement and maintain Scrum principles and practices within project teams. Guide and coach teams on Scrum values, practices, and rules to ensure effective delivery.",
+          "Project planning and Execution: Lead the planning, execution, and delivery of projects using Agile methodologies. Collaborate with stakeholders to define project scope, goals, and deliverables. Develop project timelines, budgets, and resource allocation plans.",
+          "Team Facilitation: Facilitate Scrum ceremonies including sprint planning, daily stand-ups, sprint reviews, and retrospectives. Foster collaboration and communication among team members to achieve project objectives",
+          "Stakeholder Communication: Maintain transparent communication with stakeholders, providing regular project updates, and status reports, and ensuring alignment with business goals and priorities.",
+          "Monitor and analyze the performance of key performance indicators (KPIs) to offer suggestions for improvement.",
+          "Continuous Improvement: Drive continuous improvement initiatives within the team. Encourage a culture of learning, adaptability, and innovation to enhance team performance and delivery.",
         ],
         ourbenefits: [
           "Maintained Vehicle",

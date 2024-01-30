@@ -11,27 +11,23 @@ const Products = () => {
     <section id='products-ideas'>
         <div className='container'>
             <div className='row' style={{padding:"20px 0px"}}>
-                <h3>How We create Ideas into</h3>
-                <h1>Products</h1>
+                <h3>Our Results Driven</h3>
+                <h1>Digital Services</h1>
                 <Link className='view' to="/services">View More</Link>
             </div>
             <div className='row'>
                 <div className='col-6 col'>
                     <div className='products seo'>
                         <img src={Seo} />
-                        <h2>Search Engine Optimization</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since
-                             the 1500s, when an unknown printer </p>
+                        <h2>Search Engine Optimization (SEO)</h2>
+                        <p>Apex helps its clients stay ahead of the competition through strategic keyword research and ethical practices. We elevate online visibility with tailored strategies, sustained SEO excellence, and regular performance assessments. </p>
                     </div>
                 </div>
                 <div className='col-6 col'>
                     <div className='products logo'>
                         <img src={Logo} />
                         <h2>Logo Design</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since
-                             the 1500s, when an unknown printer </p>
+                        <p>We don’t just create logos. We craft a distinctive and memorable brand identity that speaks volumes about your business. Our creative expertise transforms concepts into impactful visual symbols, leaving a lasting impression on your audience.</p>
                     </div>
                 </div>
             </div>
@@ -40,18 +36,15 @@ const Products = () => {
                     <div className='products uiux'>
                         <img src={UiUx} />
                         <h2>UI/UX Design</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since
-                             the 1500s, when an unknown printer </p>
+                        <p>We create digital experiences that immerse your audience in seamless, visually captivating interactions. Our design experts blend functionality and aesthetics, ensuring your digital platform stands out for its user-friendly elegance. </p>
                     </div>
                 </div>
                 <div className='col-6 col'>
                     <div className='products web'>
                         <img src={Web} />
                         <h2>Web Development</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since
-                             the 1500s, when an unknown printer </p>
+                        <p>We craft dynamic and responsive websites tailored to your unique needs from concept to code. Our expert web developers possess the art of enhancing the online presence with a seamless and engaging user experience.
+ </p>
                     </div>
                 </div>
             </div>

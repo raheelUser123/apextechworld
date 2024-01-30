@@ -90,7 +90,7 @@ section#banner video {
     top: 0;
     z-index: -1;
     bottom: 0;
-    transform: rotate(-180deg);
+     /* transform: rotate(-180deg); */
 }
 section#banner h1.animated-text span:nth-child(1) {
 	color: transparent;
@@ -431,8 +431,8 @@ section#ourteams {
 }
 
 section#ourteams .heading-text h5 {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 section#ourteams .heading-text p {
@@ -465,8 +465,8 @@ section#ourteams .heading-text h6 {
   text-stroke: 2px white !important;
   background: #ff10;
   text-transform: uppercase;
-  font-size: 87px;
-  line-height: 85px;
+  font-size: 47px;
+  line-height: 58px;
 }
 section#products-ideas {
   padding: 50px 0px;
@@ -1216,4 +1216,13 @@ section#jobpositions .posting {
 }
 .details-popup {
   overflow-y: scroll;
+}
+section#footer h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+section#footer h1 span {
+  font-weight: 100;
+  color: #1ef4c0b5;
+  text-transform: uppercase;
 }

@@ -14,9 +14,9 @@ const AboutUs = () => {
         <div className='container'>
             <div className='row'>
                 <div className='about-text'>
-                    <h1>Foster Innovation and <span>Collaboration</span> <br />
-with Your Strategic <span>Digital Partners</span></h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus libero exercitationem nemo quaerat dolore minima labore,<br /> corporis quod magni ad velit dolor perferendis eum a voluptatum qui, quia in alias.</p>
+                    <h1>Discover the <span>Apex Tech World </span>Experience <br />
+                    Where innovation meets digital excellence</h1>
+<p>Our journey is more than services; it's a commitment to redefine possibilities in the digital realm.<br /> We invite you to explore, connect, and embark on a journey with Apex Tech World.</p>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@ with Your Strategic <span>Digital Partners</span></h1>
                 <div className='col-6 col'>
                 <h3>Where Creativity Meets Concrete Results!</h3>
                 <h1>ABOUT US</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, soluta quo. Voluptatibus eos Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, soluta quo. Voluptatibus eos voluptate Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, soluta quo. Voluptatibus eos voluptate Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, soluta quo. Voluptatibus eos voluptate voluptate nobis! Nesciunt, deleniti maxime, sapiente minima rem nostrum odio, aliquam eaque tempore illum et voluptas hic?</p>
+                <p>Honing the name and taking the brands to the edge of the future are the core values we uphold at Apex Tech World. With our cutting-edge technology & software, we build phenomenal experience in web development and design, app development and design, and digital marketing solutions like SEO, PPC, and Social Media Marketing; we are committed to delivering the best services to help your brand stand out digitally.</p>
                 <Link to="/contactus"><button>Contact Us</button></Link>
                 </div>
             </div>

@@ -9,11 +9,9 @@ const OurTeam = () => {
             <div className='row'>
                 <CardCarousel />
                 <div className='heading-text'>
-                    <h1>Our Team <span>Our Pride</span></h1>
-                    <p>Empowering Excellence Through Innovation</p>
-                    <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took </h5>
+                    <h1>Meet Our <span>Team</span></h1>
+                    <p>Discover the Driving Force</p>
+                    <h5>Meet the creative minds steering Apex Tech World towards digital excellence. Our team is more than just professionals; we're a family of innovators, each contributing a unique skill set to redefine the digital landscape.</h5>
                         <h6><a href="mailto:info@apextechworld.com">info@apextechworld.com</a></h6>
                 </div>
             </div>
